@@ -7,4 +7,7 @@ describe 'fizzbuzz' do
   it 'returns "buzz" for the number 5' do
     expect(5.fizzbuzz).to eq "buzz"
   end
+  it 'returns "fizzbuzz" for the number 15' do
+    expect(15.fizzbuzz).to eq "fizzbuzz"
+  end
 end
