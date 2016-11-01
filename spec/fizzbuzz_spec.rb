@@ -10,4 +10,9 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" for the number 15' do
     expect(15.fizzbuzz).to eq "fizzbuzz"
   end
+  it 'returns number for all other numbers' do
+    expect(4.fizzbuzz).to eq 4
+    expect(8.fizzbuzz).to eq 8
+    expect(11.fizzbuzz).to eq 11
+  end
 end
