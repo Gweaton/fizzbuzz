@@ -1,5 +1,5 @@
 class Fixnum
   def fizzbuzz
-  "fizz"
+  self == 3? "fizz" : "buzz"
 	end
 end
